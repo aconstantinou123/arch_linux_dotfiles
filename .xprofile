@@ -1,1 +1,1 @@
-.xprofile
+xrandr --output Virtual-1 --mode 2560x1600 --dpi 96

@@ -1,1 +1,14 @@
-./.config/polybar/old_config
+[bar/mybar]
+modules-right = alsa date 
+
+[module/date]
+type = internal/date
+date = %Y-%m-%d%
+
+[module/alsa]
+type= internal/alsa
+master-soundcard = default
+master-mixer = Master
+mapped=true
+interval=5
+
